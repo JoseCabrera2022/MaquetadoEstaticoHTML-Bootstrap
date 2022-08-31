@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: lightslategrey;
+}
+.bg {
+    text-align: center;
+    padding: 10px;
+    height:100vh;
+    background-size: cover;
+    box-sizing:border-box;
+    filter: blur(2px);
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    color:lightslategrey;
+    margin-top: 40px;
+}
+.bg-text {
+    color: beige;
+    font-weight: bold;
+    border: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family:Impact;
+}
+.custom-section {
+    padding-top: 50px;
+}
+.card-text{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.cb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home {
+    background-image: url(fondoPlaneta.png);
+}
